@@ -145,7 +145,7 @@ a{
     #bg-full{
         background-color: #ffbd39
     }
-    canvas{
+    .background{
         display: none;
     }
     #intro2 div{
