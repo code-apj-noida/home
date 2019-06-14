@@ -99,6 +99,8 @@ body,html{
     width:22.5vw;
     display: flex;
     
+    justify-content: center;
+    text-align: center;
     margin:0 1px 1px 0;
     transition: all 0.3s;
 }
@@ -149,7 +151,5 @@ a{
     }
     .event{
         width:100%;
-        justify-content: center;
-        text-align: center;
     }
   }
