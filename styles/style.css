@@ -1,16 +1,18 @@
+@font-face {
+  font-family: Westminster;
+  src: url(../assets/Westminster.ttf);
+}
 *{
-
     margin:0;
     padding:0;
 }
-body,html{
-    
+body,html{    
     margin:0;
     padding:0;
     scroll-behavior: smooth;
     width:100%;
     height:100%;
-    font-family: 'Abel'
+    font-family: 'Abel';
 }
 #bg-full{
     width: 100%;
@@ -21,15 +23,31 @@ body,html{
     align-items: center;
 }
 #center-text-start{
-    
     position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Westminster;
+    color:white;
     padding:15px;
     font-size: 300%;
+    flex-direction: column;
+    z-index:2;
 }
+canvas{
+    opacity: 0.9;
+}
+#center-text-start h1{
+font-size: 3em; 
+color:white; 
+font-family: Westminster;
+ z-index: 1;
+}
+
 .background {
     position:  absolute;
     display:  block;
+    background-color: black;
     top: 0;
     left: 0;
     z-index: 0;
@@ -90,46 +108,77 @@ body,html{
     padding:2vh;
     text-align: center;
 }
-.event{
+.image{
     background-image: url("../assets/webd.jpg");
     background-size: cover;
     color:white;    
-    height:30vh;
-    padding:2vh;
-    width:22.5vw;
+    height:200px;
+    margin:1em;
+    width:250px;
     display: flex;
-    
     justify-content: center;
+    align-items: center;
     text-align: center;
-    margin:0 1px 1px 0;
     transition: all 0.3s;
 }
-.event p{
+.image p{
 
     font-size: 1.2em;
 }
-#navbar {
+header{
+    opacity: 0.87;
+    z-index: 2;
     display: flex;
-    color:#EEE;
-    background-color: black; /* Black background color */
-    position: fixed; /* Make it stick/fixed */
-    top: -50px; /* Hide the navbar 50 px outside of the top view */
-    width: 100%; /* Full width */
-    z-index: 1;
-
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    position: fixed;
+    opacity: 1;
 }
-#navbar div{
-    padding:10px;
-    transition: all .2s;
+.header-top{
+    font-family: Westminster;
 }
 
-
-#navbar div:hover{
-    background-color: #EEE;
+.header-top h1{
+    font-size: 2.8em;
+}
+.header-top p{
+    font-size: 1.2em;
+    padding-bottom: 0.8em;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.hidden{
+    display:none;
+    transition: all 0,1s ease-in-out;
+}
+ul{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    transition: all 0,1s ease-in-out;
+}
+li{
+    font-size: 1.2em;
+    padding: 8px;
+    margin: 2px 5px;
+}
+li:hover{
+    background-color: whitesmoke;
     color: black;
-    cursor: pointer;
-    
+}
+ #navbar {
+  z-index:4;
 }
 .overlay{
     display: none;
@@ -138,6 +187,7 @@ a{
     text-decoration: none;
     color:inherit
 }
+
 @media only screen and (max-width: 500px) {
     #ityped{
         display: none;
@@ -152,7 +202,43 @@ a{
         
         width:100vw;
     }
-    .event{
-        width:100%;
-    }
+   
   }
+
+
+  /* Bulma things */
+.hero-body{
+    background-color: black;
+    color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media only screen and (max-width: 1100px) {
+    .image{
+        width: 95%;
+    }
+}
+.imageno{
+    background-image: url("../assets/webd.jpg");
+    background-size: cover;
+    opacity: 0.45;
+    margin:1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all ease-in-out 0.1s;
+}
+.imageno:hover{
+    opacity: 1;
+    font-size: 1.1em;
+
+}
+.imageno p{
+
+    font-size: 1.2em;
+}
