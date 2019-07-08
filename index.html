@@ -22,8 +22,8 @@
       </div>
       <div class="header-right">
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Events</a></li>  
+            <li><a href="#intro">About</a></li>
+            <li><a href="#Events">Events</a></li>  
             <li><a href="#">Schedule</a></li>
             <li><a href="#">Register</a></li>
             <li><a href="#">Contact</a></li>
@@ -56,23 +56,11 @@
       $("#center-text-start").fadeIn(150);
     }
   }
-  $(document).ready(function () {
-
-    $(".event").hover(function () {
-
-      this.children[0].style.display = "block"
-    }, function () { this.children[0].style.display = "none" });
-
-  });
 </script>
 
 
 <div id="intro">
-
-<div>
-<h1 >Code</h1>
-<hr width="50%">
-</div>
+<h1 style="font-weight: bold;font-size: 2em">CODE</h1>
 
 <div>Code is an annual IT symposium hosted by Apeejay School, Noida. Ever since our founding in 1999 we have retained the position of Delhi-NCR's most awaited IT symposium. With over 50 schools from across Delhi-NCR, we make it bigger and better each year. </div>
 
@@ -87,58 +75,38 @@
 <div><h1>900+</h1><br> Participants</div>
 <div><h1>20+</h1><br> Awards</div>
 
+</div>  
 
-</div>
-<div style="padding:2em">
-<h1 >Events</h1>
-<hr width="50%">
-</div>
 
-<section class="hero is-halfheight ">
+<section  id="Events" class="hero is-halfheight ">
+  
+  
   <div class="hero-body">
+    
     <div class="container">
+      <h1 >Events</h1>
+      <hr width="50%">
       <div class="columns">
-        <figure class="column image imageno"><h1><p>Web Design</p></h1><br> IX-XII</h1></figure>
-        <figure class="column image imageno"><h1><p>Web Design</p></h1><br><p> IX-XII</p></h1></figure>
-        <figure class="column image imageno"><h1><p>Web Design</p></h1><br><p> IX-XII</p></h1></figure>
-        <figure class="column image imageno"><h1><p>Web Design</p></h1><br><p> IX-XII</p></h1></figure>
+        <figure class="column image image1"><h1><p>Web Design</p></h1><br> IX-XII</h1></figure>
+        <figure class="column image image2"><h1><p>Gaming</p></h1><br><p> IX-XII</p></h1></figure>
+        <figure class="column image image3"><h1><p>C++ Programming</p></h1><br><p> IX-XII</p></h1></figure>
+        <figure class="column image image4"><h1><p>Music Prod</p></h1><br><p> IX-XII</p></h1></figure>
       </div>
       <div class="columns">
-        <figure class="column image imageno"><h1><p>Web Design</p></h1><br><p> IX-XII</p></h1></figure>
-        <figure class="column image imageno"><h1><p>Web Design</p></h1><br><p> IX-XII</p></h1></figure>
-        <figure class="column image imageno"><h1><p>Web Design</p></h1><br><p> IX-XII</p></h1></figure>
-        <figure class="column image imageno"><h1><p>Web Design</p></h1><br><p> IX-XII</p></h1></figure>
+        <figure class="column image image5"><h1><p>Photography</p></h1><br><p> IX-XII</p></h1></figure>
+        <figure class="column image image6"><h1><p>Film Production</p></h1><br><p> IX-XII</p></h1></figure>
+        <figure class="column image image7"><h1><p>PC Logo</p></h1><br><p> IX-XII</p></h1></figure>
+        <figure class="column image image8"><h1><p>Symposium</p></h1><br><p> IX-XII</p></h1></figure>
       </div>
-      <div class="columns">
-        <figure class="column image imageno"><h1><p>Web Design</p></h1><br><p> IX-XII</p></h1></figure>
-        <figure class="column image imageno"><h1><p>Web Design</p></h1><br><p> IX-XII</p></h1></figure>
-        <figure class="column image imageno"><h1><p>Web Design</p></h1><br><p> IX-XII</p></h1></figure>
-        <figure class="column image imageno"><h1><p>Web Design</p></h1><br><p> IX-XII</p></h1></figure>
-      </div>
+      
     </div>
   </div>
 </section>
 
-<footer>
-  <div class="hero ishalfheight has-backgroundblack">
-    <style>
-    #map{
-      height: 100%;
-    }  
-    </style>
-    <div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: { lat: -34.397, lng: 150.644 },
-          zoom: 8
-        });
-      }
-    </script>    
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuIs_whfUEscYW1FtSYr-kZ_Rxuu0KhMI&callback=initMap" async defer></script>
-  </div>
-</footer>
+  <footer>
+
+
+  </footer>
   </body>
 
 </html>
