@@ -272,6 +272,15 @@ a{
 .image8{
     background-image: url("../assets/meet.jpeg");
 }
+.image9{
+    background-image: url("../assets/robo.png");
+}
+.image10{
+    background-image: url("../assets/hack.jpg");
+}
+.image11{
+    background-image: url("../assets/phone.jpeg");
+}
 footer{
     width:100%;
     background-color: black;
