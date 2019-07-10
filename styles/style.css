@@ -284,6 +284,12 @@ a{
 .image11{
     background-image: url("../assets/phone.jpeg");
 }
+.image12{
+    background-image: url("../assets/photo.jpg");
+}
+.image13{
+    background-image: url("../assets/gd.jpg");
+}
 footer{
     width:100%;
     background-color: black;
