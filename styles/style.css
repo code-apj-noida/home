@@ -52,6 +52,9 @@ font-family: Westminster;
     left: 0;
     z-index: 0;
   } 
+  figure{
+      cursor: pointer;
+  }
 .ityped-cursor {
     
     opacity: 1;
@@ -293,4 +296,13 @@ footer{
 }
 strong{
     color:#eee;
+}
+
+.modal-content{
+    background-color: black;
+    color:#eee;
+    height:inherit;
+}
+.modal-dialog{
+    height:90%;
 }

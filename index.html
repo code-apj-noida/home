@@ -8,6 +8,11 @@
 <meta name="theme-color" content="#040a14">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel= "stylesheet" href="styles/style.css"/>
@@ -86,21 +91,21 @@
       <h1 >Events</h1>
       <hr width="50%">
       <div class="columns">
-        <figure class="column image image1"><h1><p>Web Design</p></h1><br> IX-XII</h1></figure>
-        <figure class="column image image2"><h1><p>Gaming</p></h1><br><p> Open</p></h1></figure>
-        <figure class="column image image3"><h1><p>Programming</p></h1><br><p> IX-XII</p></h1></figure>
-        <figure class="column image image4"><h1><p>DJ Mixing</p></h1><br><p> IX-XII</p></h1></figure>
+        <figure class="column image image1" data-toggle="modal" data-target="#webDModal"><h1><p>Web Design</p></h1><br> IX-XII</h1></figure>
+       <figure class="column image image2" data-toggle="modal"  data-target="#gamingModal"><h1><p>Gaming</p></h1><br><p> Open</p></h1></figure>
+        <figure class="column image image3" data-toggle="modal" data-target="#programmingModal" ><h1><p>Programming</p></h1><br><p> IX-XII</p></h1></figure>
+        <figure class="column image image4" data-toggle="modal" data-target="#djMixingModal"><h1><p>DJ Mixing</p></h1><br><p> IX-XII</p></h1></figure>
       </div>
       <div class="columns">
-        <figure class="column image image5"><h1><p>Photography</p></h1><br><p> IX-XII</p></h1></figure>
-        <figure class="column image image6"><h1><p>Movie Making</p></h1><br><p> IX-XII</p></h1></figure>
-        <figure class="column image image7"><h1><p>PC Logo</p></h1><br><p> III-V </p></h1></figure>
-        <figure class="column image image8"><h1><p>Keynote</p></h1><br><p> Open</p></h1></figure>
+        <figure class="column image image5" data-toggle="modal" ><h1><p>Photography</p></h1><br><p> IX-XII</p></h1></figure>
+        <figure class="column image image6" data-toggle="modal" ><h1><p>Movie Making</p></h1><br><p> IX-XII</p></h1></figure>
+        <figure class="column image image7" data-toggle="modal" ><h1><p>PC Logo</p></h1><br><p> III-V </p></h1></figure>
+        <figure class="column image image8" data-toggle="modal" ><h1><p>Keynote</p></h1><br><p> Open</p></h1></figure>
       </div>
       <div class="columns">
-        <figure class="column image image9"><h1><p>The Trap</p></h1><br><p> Open</p></h1></figure>
-        <figure class="column image image10"><h1><p>Encredx</p></h1><br><p> Open</p></h1></figure>
-        <figure class="column image image11"><h1><p>Quiz</p></h1><br><p> IX-XII</p></h1></figure>
+        <figure class="column image image9"  data-toggle="modal" ><h1><p>The Trap</p></h1><br><p> Open</p></h1></figure>
+        <figure class="column image image10" data-toggle="modal" ><h1><p>Encredx</p></h1><br><p> Open</p></h1></figure>
+        <figure class="column image image11" data-toggle="modal" ><h1><p>Quiz</p></h1><br><p> IX-XII</p></h1></figure>
         
       </div>
     </div>
@@ -112,6 +117,284 @@
     <p><strong>Address:</strong>Film City, Sector 16A, Noida, Uttar Pradesh 201301</p>
     <p> Site is under construction </p>
   </footer>
-  </body>
+ <!-- Web Design -->
+ <div class="modal fade" id="webDModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Web Design Rules</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+          <p><strong>Domain: </strong>IX-XII</p>
+          <p><strong>No. Of Participants: </strong>2</p>
+          <p><strong>Software Provided: </strong>GIMP,Sublime Text,Brackets</p>
+          <p><Strong>Rules:</Strong></p>
+          <li>HTML,CSS,JS  and Jquery should be used.</li>
+          <li>No Internet Access Would Be provided</li>
+          <li>Teams caught cheating would be disqualified</li>
+          <li>There are no preliminary rounds for this event</li>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+ <!--DJ Mixing -->
+ <div class="modal fade" id="djMixingModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">DJ Mixing Rules</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+          <p><strong>Domain: </strong>IX-XII</p>
+          <p><strong>No. Of Participants: </strong>1</p>
+          <p><strong>Software Provided: </strong>FL Studio</p>
+          <p><Strong>Rules:</Strong></p>
+          <li>Use of pre made beats is prohibited.</li>
+          <li>No additional plugins/sample packs will be provided.</li>
+          <li>Tracks for both the rounds will be given ON THE SPOT </li>
+          <li>Participants should carry  their own headphones/earphones.</li>
+          
+          <h3>Prelims</h3>
+          <p><strong>Time Alloted: </strong>1hr</p>
+          <li>Create a mashup of at least 5 songs</li>
+          <li>Best 8 will qualify for the finals</li>
+
+          <h3>Finals</h3>
+          <p><strong>Time Alloted: </strong>1hr</p>
+          <li>Create a remix of a given song.</li>
+          <li>Entries will be judged on the basis of their creativity and originality</li>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+ <!--Gaming -->
+ <div class="modal fade" id="gamingModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Gaming Rules</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+          <p><strong>Domain: </strong>Open</p>
+          <p><strong>No. Of Participants: </strong>1</p>
+          <p><Strong>Rules:</Strong></p>
+          <li>Participants should come prepared for any type of game either pc or console</li>
+          <li>Participants can bring their own controllers, keyboards, mouse and headphones / earphones.</li>
+          
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+ <!--Programming -->
+ <div class="modal fade" id="programmingModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Programming Rules</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+          <p><strong>Domain: </strong>XI-XII</p>
+          <p><strong>Software Provided: </strong>Turbo C++, G++, Sublime Text, Python 3.4 </p>
+          <p><strong>No. Of Participants: </strong>2</p>
+          <p><strong>Time Alloted: </strong>1 hr</p>
+          <p><Strong>Rules:</Strong></p>
+          <li>Use of helper tools such as right clicking etc. are prohibited and would lead to direct disqualification</li>
+          <li>You will have only one language to program in (C++ or Python)</li>
+          <li>You will be provided with questions on the spot. You will be allowed to attempt all the questions in only one language</li> 
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+ <!--Photography -->
+ <div class="modal fade" id="djMixingModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Photography Rules</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+          <p><strong>Domain: </strong>IX-XII</p>
+          <p><strong>No. Of Participants: </strong>2</p>
+          
+          <h3>Prelims</h3>
+          <li>Prelims would be held on the spot.</li>
+          <li>Bring your own pendrives and laptop for editing.</li>
+          <li>No machines would be provided by the school.</li>
+
+          <h3>Finals</h3>
+          <p><strong>Time Alloted: </strong>1hr</p>
+          <li>8 teams would be registered for finals.</li>
+          <li>Topics would be given on the spot.</li>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+<!--Movie Making-->
+<div class="modal fade" id="djMixingModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Movie Making Rules</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+          <p><strong>Domain: </strong>IX-XII</p>
+          <p><strong>No. Of Participants: </strong>2</p>
+          
+          <h3>Prelims</h3>
+          <li>The participants have to make a movie on the given following topics:
+            <ol style="margin-left:10px">
+              <li>TBD</li>
+              <li>TBD</li>
+            </ol>
+          </li>
+
+          <li>The movie shouldn't exceed 6 minutes runtime including credits and information.</li>
+          <li>The movie should be uploaded on YouTube and it's link should be emailed to the prelims entry forms on our website.</li>
+
+          <h3>Finals</h3>
+          
+          <li>8 teams would be registered for finals.</li>
+          
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--Keynote-->
+<div class="modal fade" id="keynoteModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Keynote Rules</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+          <p><strong>Domain: </strong>IX-XII</p>
+          <p><strong>No. Of Participants: </strong>2</p>
+          
+          <h3>Finals</h3>
+          <li>The participants are required to bring a softcopy on a USB drive. </li>
+          <li>The participants have to present their product via the help of their ppt.</li>
+          
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--Digital Imaging-->
+<div class="modal fade" id="diModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Digital Imaging Rules</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+          <p><strong>Domain: </strong>IX-XII</p>
+          <p><strong>No. Of Participants: </strong>2</p>
+          <li> Participants would have to submit their pre made entries on any one of the following  topics listed below on the event day.</li>
+          <li> 8 finalists would be called on the venue to explain their work along with some Q&A's about it.</li>
+          <h3>Topics</h3>
+          <li>TBD</li>
+          <li>TBD</li>
+          
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
 
 </html>
