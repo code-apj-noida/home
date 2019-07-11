@@ -341,3 +341,11 @@ button[type="submit"]{
     padding:5px;
     margin:5px;
 }
+a[href ="assets/brochure.pdf"]{
+    background-color:  	#FF8C00;
+    border:none;
+    text-decoration: none;
+    color:#eee;
+    padding:5px;
+    
+}
