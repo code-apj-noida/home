@@ -26,11 +26,11 @@ body,html{
     position: relative;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     font-family: Westminster;
     color:white;
-    padding:15px;
-    font-size: 300%;
+    font-size: 250%;
     flex-direction: column;
     z-index:2;
 }
@@ -300,7 +300,7 @@ footer{
     padding:15px;
     flex-direction: column;
 }
-strong{
+strong,label{
     color:#eee;
 }
 
@@ -311,4 +311,33 @@ strong{
 }
 .modal-dialog{
     height:90%;
+}
+#banner-p{
+    width:100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height:30%;
+    color:#EEE;
+    background-color: #252525;
+}
+#forms{
+    margin:50px;
+    
+}
+.row{
+    display: flex;
+    margin:30px 0;
+}
+.row input,textarea{
+    width:40vw;
+    margin:10px;
+}
+button[type="submit"]{
+    background-color:  	#FF8C00;
+    border:none;
+    color:#eee;
+    padding:5px;
+    margin:5px;
 }

@@ -6,9 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
 <meta charset="utf-8">
 <meta name="theme-color" content="#040a14">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -29,7 +27,7 @@
             <li><a href="#intro">About</a></li>
             <li><a href="#Events">Events</a></li>  
             <li><a href="#schedule">Schedule</a></li>
-            <li><a href="#">Register</a></li>
+            <li><a href="registration.html">Register</a></li>
             <li><a href="#footer">Contact</a></li>
 
           </ul>
@@ -40,23 +38,24 @@
 
 <div id = "bg-full" >
 <div  id="center-text-start" >
-  <h1> CODE</h1>
-  <p>Veni . Vedi . Vici</p>
+  <h1>CODE</h1>
+
+  <p>25-26th July <br/> Veni . Vedi . Vici</p>
 </div>
 
   <canvas class="background"></canvas>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 </div>
 <script>
-  $("#navbar").hide();
+  $(".header-right").hide();
   window.onscroll = function () {
     console.log(document.body.scrollTop)
     // $("#navbar").slideUp();
     if (document.documentElement.scrollTop > 100) {
-      $("#navbar").slideDown(200);
+      $(".header-right").fadeIn()
       $("#center-text-start").fadeOut(150);
     } else {
-      $("#navbar").slideUp(100);
+      $(".header-right").fadeOut()
       $("#center-text-start").fadeIn(150);
     }
   }
@@ -115,7 +114,7 @@
   </div>
 </section>
 <section id="schedule" style="background-color: black;text-align: center;">
-  <img src="assets/schedule.png"/>
+  <img src="assets/schedule2.png"/>
 </section>
   <footer id="footer">
     
