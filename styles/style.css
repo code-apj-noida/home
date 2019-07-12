@@ -355,3 +355,7 @@ a[href ="assets/brochure.pdf"]{
     padding:5px;
     
 }
+#social a:hover{
+  color:initial;
+  text-decoration:none
+}
