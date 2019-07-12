@@ -255,11 +255,12 @@ a{
 }
 
 .image3{
-    background-image: url("../assets/prod.jpg");
+  
+    background-image: url("../assets/cpp.jpg");
 }
 
 .image4{
-    background-image: url("../assets/cpp.jpg");
+    background-image: url("../assets/prod.jpg");
 }
 
 .image5{
