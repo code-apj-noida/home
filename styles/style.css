@@ -343,7 +343,7 @@ button[type="submit"]{
     margin:5px;
 }
 
-#social a{
+.social a{
   font-size:1.3em;
   margin:10px'
 }
@@ -355,7 +355,7 @@ a[href ="assets/brochure.pdf"]{
     padding:5px;
     
 }
-#social a:hover{
+.social a:hover{
   color:initial;
   text-decoration:none
 }
