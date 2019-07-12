@@ -2,6 +2,12 @@
   font-family: Westminster;
   src: url(../assets/Westminster.ttf);
 }
+input{
+  border:none;
+}
+textarea{
+  resize:none;
+}
 *{
     margin:0;
     padding:0;
