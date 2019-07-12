@@ -3,7 +3,7 @@
   src: url(../assets/Westminster.ttf);
 }
 input{
-  border:none;
+  border:1px;
 }
 textarea{
   resize:none;
