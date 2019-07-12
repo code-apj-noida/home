@@ -2,9 +2,6 @@
   font-family: Westminster;
   src: url(../assets/Westminster.ttf);
 }
-input{
-  border:1px;
-}
 textarea{
   resize:none;
 }
