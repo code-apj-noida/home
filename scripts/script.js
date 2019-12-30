@@ -13,7 +13,7 @@ window.onload = function() {
             breakpoint: 768,
             options: {
               maxParticles: 50,
-              color: '#ffffff',
+              color: '#1a0e33',
               connectParticles: false
             }
           }, {
