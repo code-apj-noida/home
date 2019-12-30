@@ -5,7 +5,7 @@ window.onload = function() {
         // normal options
         selector: '.background',
         maxParticles: 120,
-        color:'#ffffff',
+        color:'#b31059',
         connectParticles: true,
         // options for breakpoints
         responsive: [
